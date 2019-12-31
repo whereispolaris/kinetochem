@@ -30,11 +30,6 @@ wp-content/mu-plugins/force-strong-passwords*
 wp-content/mu-plugins/wpengine-common*
 wp-content/mysql.sql
 
-# Circle CI
-
-__default
-__deployment
-
 # wp core (as of 4.9.5)
 /db-config.php
 /index.php
