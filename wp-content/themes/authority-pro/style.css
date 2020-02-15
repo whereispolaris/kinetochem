@@ -80,11 +80,45 @@ Text Domain: authority-pro
 /* Custom styling - Santiago E. 
 -----------------------------------*/
 
-h1 {
+h1,
+h2,
+h3 {
 	background: linear-gradient(104deg, #42104c 10%, #e05d16 70%);
 	-webkit-background-clip: text;
 	background-clip: text;
 	-webkit-text-fill-color: transparent;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto;
+}
+
+.grid-item {
+	padding: 5px;
+}
+
+.grid-item a {
+	text-decoration: none;
+	font-family: 'Source Sans Pro', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.footer-title {
+	color: #e05d16;
+}
+
+.site-footer {
+	display: none;
+}
+
+ion-icon {
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 781px) {
+	figure.wp-block-image.size-large.is-resized.cannabinoid-crystal {
+		display: none;
+	}
 }
 
 /* HTML5 Reset
@@ -2849,6 +2883,10 @@ p.center {
 	.flexible-widgets .enews-widget:last-of-type,
 	.flexible-widgets.widget-odd .enews-widget:last-of-type {
 		padding: 30px 40px;
+	}
+	/* Santiago */
+	.wp-block-button {
+		padding: 10px 18px;
 	}
 }
 
